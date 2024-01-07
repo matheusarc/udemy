@@ -1,0 +1,58 @@
+@media (max-width: 1200px){
+    main{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-content{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    main figure img{
+        width: 290px;
+        height: 290px;
+        border-radius: 50%;
+        margin-top: 20%;
+        border: 1px solid black;
+    }
+}
+@media (max-width: 600px){
+    header h1{
+        font-size: 1.6em;
+    }
+    header nav{
+        font-size: .8em;
+    }
+    .main-content h2{
+        margin-bottom: 2%;
+        font-size: 1.6em;
+    }
+    .main-content .text p{
+        width: 75%;
+        font-size: .9em;
+        font-weight: 290;
+        margin-bottom: 15%;
+    }
+    aside.techs .cards-conteiner .card{
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+        background-color: #eee;
+        border-radius: 5px;
+        margin-right: 1.8em;
+        cursor: pointer;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        transition: .25s ease-in-out;
+    }
+    main figure img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 20%;
+        border: 1px solid black;
+    }
+}
