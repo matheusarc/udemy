@@ -10,6 +10,27 @@
         align-items: center;
         justify-content: center;
     }
+    .main-content h2{
+        margin-bottom: 2%;
+        font-size: 1.6em;
+        text-align: center;
+    }
+    .main-content .text p{
+        width: 100%;
+        font-size: .9em;
+        font-weight: 290;
+        margin-bottom: 15%;
+        text-align: center;
+    }
+    aside.techs .cards-conteiner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    aside.techs .cards-conteiner .card{
+        width: 140px;
+        height: 140px;
+    }
     main figure img{
         width: 290px;
         height: 290px;
@@ -19,6 +40,9 @@
     }
 }
 @media (max-width: 600px){
+    header {
+        text-align: center;
+    }
     header h1{
         font-size: 1.6em;
     }
@@ -28,25 +52,24 @@
     .main-content h2{
         margin-bottom: 2%;
         font-size: 1.6em;
+        text-align: center;
     }
     .main-content .text p{
-        width: 75%;
+        width: 100%;
         font-size: .9em;
         font-weight: 290;
         margin-bottom: 15%;
+        text-align: center;
+    }
+    aside.techs .cards-conteiner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 6%;
     }
     aside.techs .cards-conteiner .card{
         width: 80px;
         height: 80px;
-        padding: 10px;
-        background-color: #eee;
-        border-radius: 5px;
-        margin-right: 1.8em;
-        cursor: pointer;
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        transition: .25s ease-in-out;
     }
     main figure img{
         width: 200px;
